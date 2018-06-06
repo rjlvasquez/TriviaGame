@@ -1,0 +1,80 @@
+html,
+
+body {
+height: 100%;
+}
+
+body {
+text-align: center;
+background-image: url("../images/JupiterTwo.jpg");
+}
+
+#wrapper {
+    width: 960px;
+    min-height: 80%;
+    box-sizing: border-box;
+    padding: 5% 0;
+    margin: 5% auto;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+  
+}
+
+#sub-wrapper {
+    position: relative;
+    top: 20%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button {
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin: 10px auto 0;
+    font-size: 42px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    font-family: 'Permanent Marker', cursive;
+    
+  
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6.5em;
+    font-weight: bold;
+    color: rgb(4, 5, 7);
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 35px;
+    font: white;  
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+}
+
+#start {
+    margin-top: 10%;
+    background: rgb(253, 248, 249);
+    border: 2px solid rgb(202, 48, 48);
+  
+}
+
+#quiz-area h2 {
+    margin-top: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button:hover {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(246, 246, 250);
+  
+}
